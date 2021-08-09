@@ -1,0 +1,172 @@
+body {
+    font-size: 12px;
+    margin: 10px auto;
+    width: 90%;
+}
+
+.caixa-banner {
+    background-image: url(../img/foto-fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.filha1 {
+    font-family: "Helvetica", Arial, sans-serif;
+}
+
+.titulo1{
+    margin-top: -270px;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #413e3e;
+}
+
+.subtitulo1 {
+    margin-top: -10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #413e3e;
+}
+
+.link-jornada {
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    transition: all .5s;
+}
+
+.link-jornada:hover{
+    background-color: rgb(230, 89, 89);
+    color: #fff;
+}
+
+.link-jornada:active{
+    background-color: rgb(230, 89, 89);
+}
+
+.link-jornada:focus{
+    background-color: rgb(230, 89, 89);
+}
+
+.caixa-sobre {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    text-align: justify;
+    font-family: "Arial", Helvetica, sans-serif;
+}
+
+.caixa-sobre p {
+    text-indent: 1.2em;
+}
+
+.lado1, .lado2 {
+    width: 40%;
+}
+
+.lado1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lado1 h3 {
+color: #413e3e;
+text-transform: uppercase;
+}
+
+.lado2 h3 {
+    text-indent: 45px;
+    color: #413e3e;
+}
+
+.margin-texto {
+    margin-bottom: 40px;
+}
+
+.link-cv {
+margin-top: 15px;
+font-size: 1rem;
+font-weight: bold;
+text-decoration: none;
+text-transform: uppercase;
+color: #fff;
+border-radius: 20px;
+background-color: lightcoral;
+padding: 8px 20px;
+transition: all .5s;
+}
+
+.link-cv:hover {
+    background-color: rgb(230, 89, 89);
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.link-cv:active{
+    background-color: rgb(230, 89, 89);
+}
+
+.link-cv:focus{
+    background-color: rgb(230, 89, 89);
+}
+
+.habilidades li {
+    list-style-type:circle;
+    padding: 5px;
+}
+
+.caixa-links{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.links {
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcoral;
+    transition: all .5s;
+}
+
+.links:hover{
+    transform: scale(1.1);
+}
+
+.links p {
+    margin-top: -5px;
+    font-size: 15px;
+    font-family: "Helvetica", Arial, sans-serif;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .caixa-sobre {
+        flex-direction: column;
+    }
+
+    .lado1 .lado2 {
+        width: 100%;
+    }
+}
