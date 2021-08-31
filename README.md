@@ -3,4 +3,4 @@
 * #### Nesse projeto tive a oportunidade de desenvolver uma página Web contendo minhas informações curriculares. O projeto foi desenvolvido na oficina da {reprograma} como uma fase obrigatória para participar do processo seletivo do bootcamp de Front-End.
 * #### Tive a oportunidade de desenvolver em HTML e CSS e aplicar conhecimentos iniciantes, assim como Design Responsivo e efeitos.
 
-* #### A página está disponível aqui: https://natalia-lavarda.netlify.app/#minha-jornada
+* #### A página está disponível aqui: https://natalia-lavarda.netlify.app/
